@@ -1,22 +1,8 @@
-let person = [ //Objects always written in square bracket
-{
-    name : "Safi" , 
-    age : 22 ,
-    country : "Pakistan" ,
-    Muslim : true
-}, // arrays aways written in curly brackets
-{
-    name : "ali" , 
-    age : 20 ,
-    country : "Pakistan" ,
-    Muslim : true
-},
-{
-    name : "Ashok" , 
-    age : 21,
-    country : "India" ,
-    Muslim : false
-}
-]
-console.log(person[1]);
-console.log(person[1].country);
+let miles=parseInt(prompt("Enter The Miles")) ;
+console.log("Entered Miles are" +miles);
+
+let kilometer=1.60934 ;
+
+let milestokilometers = miles * kilometer ;
+let milestokilometers1 = Math.floor(milestokilometers)
+console.log("The distance of "  +miles+  " miles is equal to "  +milestokilometers1+  " kilometers" )
